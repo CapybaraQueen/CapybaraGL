@@ -1,0 +1,2 @@
+/usr/bin/ar qc libMyOpenGLLibrary.a CMakeFiles/MyOpenGLLibrary.dir/src/window.cpp.o CMakeFiles/MyOpenGLLibrary.dir/src/renderer.cpp.o CMakeFiles/MyOpenGLLibrary.dir/src/shader.cpp.o
+/usr/bin/ranlib libMyOpenGLLibrary.a
