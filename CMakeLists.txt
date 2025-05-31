@@ -35,6 +35,8 @@ set(LIBRARY_SOURCES
 	src/VertexBuffer.cpp
 	src/VertexArray.cpp
 	src/IndexBuffer.cpp
+	res/shaders/Basic.glsl
+	res/shaders/Circle.glsl
 )
 
 # Build as a static or shared library (you can switch STATIC <-> SHARED)
