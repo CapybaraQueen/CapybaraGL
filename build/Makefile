@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named MyOpenGLLibrary
+# Target rules for targets named CapybaraGL
 
 # Build rule for target.
-MyOpenGLLibrary: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MyOpenGLLibrary
-.PHONY : MyOpenGLLibrary
+CapybaraGL: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CapybaraGL
+.PHONY : CapybaraGL
 
 # fast build rule for target.
-MyOpenGLLibrary/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyOpenGLLibrary.dir/build.make CMakeFiles/MyOpenGLLibrary.dir/build
-.PHONY : MyOpenGLLibrary/fast
+CapybaraGL/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CapybaraGL.dir/build.make CMakeFiles/CapybaraGL.dir/build
+.PHONY : CapybaraGL/fast
 
 src/IndexBuffer.o: src/IndexBuffer.cpp.o
 .PHONY : src/IndexBuffer.o
 
 # target to build an object file
 src/IndexBuffer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyOpenGLLibrary.dir/build.make CMakeFiles/MyOpenGLLibrary.dir/src/IndexBuffer.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CapybaraGL.dir/build.make CMakeFiles/CapybaraGL.dir/src/IndexBuffer.cpp.o
 .PHONY : src/IndexBuffer.cpp.o
 
 src/IndexBuffer.i: src/IndexBuffer.cpp.i
@@ -142,7 +142,7 @@ src/IndexBuffer.i: src/IndexBuffer.cpp.i
 
 # target to preprocess a source file
 src/IndexBuffer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyOpenGLLibrary.dir/build.make CMakeFiles/MyOpenGLLibrary.dir/src/IndexBuffer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CapybaraGL.dir/build.make CMakeFiles/CapybaraGL.dir/src/IndexBuffer.cpp.i
 .PHONY : src/IndexBuffer.cpp.i
 
 src/IndexBuffer.s: src/IndexBuffer.cpp.s
@@ -150,7 +150,7 @@ src/IndexBuffer.s: src/IndexBuffer.cpp.s
 
 # target to generate assembly for a file
 src/IndexBuffer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyOpenGLLibrary.dir/build.make CMakeFiles/MyOpenGLLibrary.dir/src/IndexBuffer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CapybaraGL.dir/build.make CMakeFiles/CapybaraGL.dir/src/IndexBuffer.cpp.s
 .PHONY : src/IndexBuffer.cpp.s
 
 src/Renderer.o: src/Renderer.cpp.o
@@ -158,7 +158,7 @@ src/Renderer.o: src/Renderer.cpp.o
 
 # target to build an object file
 src/Renderer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyOpenGLLibrary.dir/build.make CMakeFiles/MyOpenGLLibrary.dir/src/Renderer.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CapybaraGL.dir/build.make CMakeFiles/CapybaraGL.dir/src/Renderer.cpp.o
 .PHONY : src/Renderer.cpp.o
 
 src/Renderer.i: src/Renderer.cpp.i
@@ -166,7 +166,7 @@ src/Renderer.i: src/Renderer.cpp.i
 
 # target to preprocess a source file
 src/Renderer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyOpenGLLibrary.dir/build.make CMakeFiles/MyOpenGLLibrary.dir/src/Renderer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CapybaraGL.dir/build.make CMakeFiles/CapybaraGL.dir/src/Renderer.cpp.i
 .PHONY : src/Renderer.cpp.i
 
 src/Renderer.s: src/Renderer.cpp.s
@@ -174,7 +174,7 @@ src/Renderer.s: src/Renderer.cpp.s
 
 # target to generate assembly for a file
 src/Renderer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyOpenGLLibrary.dir/build.make CMakeFiles/MyOpenGLLibrary.dir/src/Renderer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CapybaraGL.dir/build.make CMakeFiles/CapybaraGL.dir/src/Renderer.cpp.s
 .PHONY : src/Renderer.cpp.s
 
 src/Shader.o: src/Shader.cpp.o
@@ -182,7 +182,7 @@ src/Shader.o: src/Shader.cpp.o
 
 # target to build an object file
 src/Shader.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyOpenGLLibrary.dir/build.make CMakeFiles/MyOpenGLLibrary.dir/src/Shader.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CapybaraGL.dir/build.make CMakeFiles/CapybaraGL.dir/src/Shader.cpp.o
 .PHONY : src/Shader.cpp.o
 
 src/Shader.i: src/Shader.cpp.i
@@ -190,7 +190,7 @@ src/Shader.i: src/Shader.cpp.i
 
 # target to preprocess a source file
 src/Shader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyOpenGLLibrary.dir/build.make CMakeFiles/MyOpenGLLibrary.dir/src/Shader.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CapybaraGL.dir/build.make CMakeFiles/CapybaraGL.dir/src/Shader.cpp.i
 .PHONY : src/Shader.cpp.i
 
 src/Shader.s: src/Shader.cpp.s
@@ -198,7 +198,7 @@ src/Shader.s: src/Shader.cpp.s
 
 # target to generate assembly for a file
 src/Shader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyOpenGLLibrary.dir/build.make CMakeFiles/MyOpenGLLibrary.dir/src/Shader.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CapybaraGL.dir/build.make CMakeFiles/CapybaraGL.dir/src/Shader.cpp.s
 .PHONY : src/Shader.cpp.s
 
 src/VertexArray.o: src/VertexArray.cpp.o
@@ -206,7 +206,7 @@ src/VertexArray.o: src/VertexArray.cpp.o
 
 # target to build an object file
 src/VertexArray.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyOpenGLLibrary.dir/build.make CMakeFiles/MyOpenGLLibrary.dir/src/VertexArray.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CapybaraGL.dir/build.make CMakeFiles/CapybaraGL.dir/src/VertexArray.cpp.o
 .PHONY : src/VertexArray.cpp.o
 
 src/VertexArray.i: src/VertexArray.cpp.i
@@ -214,7 +214,7 @@ src/VertexArray.i: src/VertexArray.cpp.i
 
 # target to preprocess a source file
 src/VertexArray.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyOpenGLLibrary.dir/build.make CMakeFiles/MyOpenGLLibrary.dir/src/VertexArray.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CapybaraGL.dir/build.make CMakeFiles/CapybaraGL.dir/src/VertexArray.cpp.i
 .PHONY : src/VertexArray.cpp.i
 
 src/VertexArray.s: src/VertexArray.cpp.s
@@ -222,7 +222,7 @@ src/VertexArray.s: src/VertexArray.cpp.s
 
 # target to generate assembly for a file
 src/VertexArray.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyOpenGLLibrary.dir/build.make CMakeFiles/MyOpenGLLibrary.dir/src/VertexArray.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CapybaraGL.dir/build.make CMakeFiles/CapybaraGL.dir/src/VertexArray.cpp.s
 .PHONY : src/VertexArray.cpp.s
 
 src/VertexBuffer.o: src/VertexBuffer.cpp.o
@@ -230,7 +230,7 @@ src/VertexBuffer.o: src/VertexBuffer.cpp.o
 
 # target to build an object file
 src/VertexBuffer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyOpenGLLibrary.dir/build.make CMakeFiles/MyOpenGLLibrary.dir/src/VertexBuffer.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CapybaraGL.dir/build.make CMakeFiles/CapybaraGL.dir/src/VertexBuffer.cpp.o
 .PHONY : src/VertexBuffer.cpp.o
 
 src/VertexBuffer.i: src/VertexBuffer.cpp.i
@@ -238,7 +238,7 @@ src/VertexBuffer.i: src/VertexBuffer.cpp.i
 
 # target to preprocess a source file
 src/VertexBuffer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyOpenGLLibrary.dir/build.make CMakeFiles/MyOpenGLLibrary.dir/src/VertexBuffer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CapybaraGL.dir/build.make CMakeFiles/CapybaraGL.dir/src/VertexBuffer.cpp.i
 .PHONY : src/VertexBuffer.cpp.i
 
 src/VertexBuffer.s: src/VertexBuffer.cpp.s
@@ -246,7 +246,7 @@ src/VertexBuffer.s: src/VertexBuffer.cpp.s
 
 # target to generate assembly for a file
 src/VertexBuffer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyOpenGLLibrary.dir/build.make CMakeFiles/MyOpenGLLibrary.dir/src/VertexBuffer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CapybaraGL.dir/build.make CMakeFiles/CapybaraGL.dir/src/VertexBuffer.cpp.s
 .PHONY : src/VertexBuffer.cpp.s
 
 src/Window.o: src/Window.cpp.o
@@ -254,7 +254,7 @@ src/Window.o: src/Window.cpp.o
 
 # target to build an object file
 src/Window.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyOpenGLLibrary.dir/build.make CMakeFiles/MyOpenGLLibrary.dir/src/Window.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CapybaraGL.dir/build.make CMakeFiles/CapybaraGL.dir/src/Window.cpp.o
 .PHONY : src/Window.cpp.o
 
 src/Window.i: src/Window.cpp.i
@@ -262,7 +262,7 @@ src/Window.i: src/Window.cpp.i
 
 # target to preprocess a source file
 src/Window.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyOpenGLLibrary.dir/build.make CMakeFiles/MyOpenGLLibrary.dir/src/Window.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CapybaraGL.dir/build.make CMakeFiles/CapybaraGL.dir/src/Window.cpp.i
 .PHONY : src/Window.cpp.i
 
 src/Window.s: src/Window.cpp.s
@@ -270,7 +270,7 @@ src/Window.s: src/Window.cpp.s
 
 # target to generate assembly for a file
 src/Window.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyOpenGLLibrary.dir/build.make CMakeFiles/MyOpenGLLibrary.dir/src/Window.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CapybaraGL.dir/build.make CMakeFiles/CapybaraGL.dir/src/Window.cpp.s
 .PHONY : src/Window.cpp.s
 
 # Help Target
@@ -281,7 +281,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... MyOpenGLLibrary"
+	@echo "... CapybaraGL"
 	@echo "... src/IndexBuffer.o"
 	@echo "... src/IndexBuffer.i"
 	@echo "... src/IndexBuffer.s"

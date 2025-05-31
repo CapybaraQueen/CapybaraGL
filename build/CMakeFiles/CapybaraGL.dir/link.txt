@@ -1,0 +1,2 @@
+/usr/bin/ar qc libCapybaraGL.a CMakeFiles/CapybaraGL.dir/src/Window.cpp.o CMakeFiles/CapybaraGL.dir/src/Renderer.cpp.o CMakeFiles/CapybaraGL.dir/src/Shader.cpp.o CMakeFiles/CapybaraGL.dir/src/VertexBuffer.cpp.o CMakeFiles/CapybaraGL.dir/src/VertexArray.cpp.o CMakeFiles/CapybaraGL.dir/src/IndexBuffer.cpp.o
+/usr/bin/ranlib libCapybaraGL.a

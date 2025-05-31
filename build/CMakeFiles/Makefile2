@@ -63,11 +63,11 @@ CMAKE_BINARY_DIR = /home/Angie/Documents/CppCode/CapybaraGL/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/MyOpenGLLibrary.dir/all
+all: CMakeFiles/CapybaraGL.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: CMakeFiles/MyOpenGLLibrary.dir/codegen
+codegen: CMakeFiles/CapybaraGL.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -75,40 +75,40 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/MyOpenGLLibrary.dir/clean
+clean: CMakeFiles/CapybaraGL.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/MyOpenGLLibrary.dir
+# Target rules for target CMakeFiles/CapybaraGL.dir
 
 # All Build rule for target.
-CMakeFiles/MyOpenGLLibrary.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyOpenGLLibrary.dir/build.make CMakeFiles/MyOpenGLLibrary.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyOpenGLLibrary.dir/build.make CMakeFiles/MyOpenGLLibrary.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/Angie/Documents/CppCode/CapybaraGL/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target MyOpenGLLibrary"
-.PHONY : CMakeFiles/MyOpenGLLibrary.dir/all
+CMakeFiles/CapybaraGL.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CapybaraGL.dir/build.make CMakeFiles/CapybaraGL.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CapybaraGL.dir/build.make CMakeFiles/CapybaraGL.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/Angie/Documents/CppCode/CapybaraGL/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target CapybaraGL"
+.PHONY : CMakeFiles/CapybaraGL.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/MyOpenGLLibrary.dir/rule: cmake_check_build_system
+CMakeFiles/CapybaraGL.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/Angie/Documents/CppCode/CapybaraGL/build/CMakeFiles 7
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/MyOpenGLLibrary.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/CapybaraGL.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/Angie/Documents/CppCode/CapybaraGL/build/CMakeFiles 0
-.PHONY : CMakeFiles/MyOpenGLLibrary.dir/rule
+.PHONY : CMakeFiles/CapybaraGL.dir/rule
 
 # Convenience name for target.
-MyOpenGLLibrary: CMakeFiles/MyOpenGLLibrary.dir/rule
-.PHONY : MyOpenGLLibrary
+CapybaraGL: CMakeFiles/CapybaraGL.dir/rule
+.PHONY : CapybaraGL
 
 # codegen rule for target.
-CMakeFiles/MyOpenGLLibrary.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyOpenGLLibrary.dir/build.make CMakeFiles/MyOpenGLLibrary.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/Angie/Documents/CppCode/CapybaraGL/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Finished codegen for target MyOpenGLLibrary"
-.PHONY : CMakeFiles/MyOpenGLLibrary.dir/codegen
+CMakeFiles/CapybaraGL.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CapybaraGL.dir/build.make CMakeFiles/CapybaraGL.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/Angie/Documents/CppCode/CapybaraGL/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Finished codegen for target CapybaraGL"
+.PHONY : CMakeFiles/CapybaraGL.dir/codegen
 
 # clean rule for target.
-CMakeFiles/MyOpenGLLibrary.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyOpenGLLibrary.dir/build.make CMakeFiles/MyOpenGLLibrary.dir/clean
-.PHONY : CMakeFiles/MyOpenGLLibrary.dir/clean
+CMakeFiles/CapybaraGL.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CapybaraGL.dir/build.make CMakeFiles/CapybaraGL.dir/clean
+.PHONY : CMakeFiles/CapybaraGL.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
