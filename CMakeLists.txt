@@ -29,10 +29,9 @@ link_directories(
 
 # Source files (no globbing)
 set(LIBRARY_SOURCES
-    src/renderer.c
-    src/utils.cpp
-    include/renderer.h
-    include/utils.hpp
+	src/Window.cpp
+	src/Renderer.cpp
+	src/Shader.cpp
 )
 
 # Build as a static or shared library (you can switch STATIC <-> SHARED)
