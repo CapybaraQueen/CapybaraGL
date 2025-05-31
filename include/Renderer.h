@@ -2,9 +2,10 @@
 #define RENDERER_H
 
 #include <GL/glew.h>
-#include "vertexArray.h"
-#include "indexBuffer.h"
-#include "shader.h"
+#include "VertexArray.h"
+#include "IndexBuffer.h"
+#include "Shader.h"
+#include "Debug.h"
 
 class Renderer
 {

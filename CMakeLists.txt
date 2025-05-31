@@ -32,6 +32,9 @@ set(LIBRARY_SOURCES
 	src/Window.cpp
 	src/Renderer.cpp
 	src/Shader.cpp
+	src/VertexBuffer.cpp
+	src/VertexArray.cpp
+	src/IndexBuffer.cpp
 )
 
 # Build as a static or shared library (you can switch STATIC <-> SHARED)
