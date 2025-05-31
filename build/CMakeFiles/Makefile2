@@ -85,12 +85,12 @@ clean: CMakeFiles/MyOpenGLLibrary.dir/clean
 CMakeFiles/MyOpenGLLibrary.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyOpenGLLibrary.dir/build.make CMakeFiles/MyOpenGLLibrary.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyOpenGLLibrary.dir/build.make CMakeFiles/MyOpenGLLibrary.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/Angie/Documents/CppCode/CapybaraGL/build/CMakeFiles --progress-num=1,2,3,4 "Built target MyOpenGLLibrary"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/Angie/Documents/CppCode/CapybaraGL/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target MyOpenGLLibrary"
 .PHONY : CMakeFiles/MyOpenGLLibrary.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/MyOpenGLLibrary.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/Angie/Documents/CppCode/CapybaraGL/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/Angie/Documents/CppCode/CapybaraGL/build/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/MyOpenGLLibrary.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/Angie/Documents/CppCode/CapybaraGL/build/CMakeFiles 0
 .PHONY : CMakeFiles/MyOpenGLLibrary.dir/rule
@@ -102,7 +102,7 @@ MyOpenGLLibrary: CMakeFiles/MyOpenGLLibrary.dir/rule
 # codegen rule for target.
 CMakeFiles/MyOpenGLLibrary.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyOpenGLLibrary.dir/build.make CMakeFiles/MyOpenGLLibrary.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/Angie/Documents/CppCode/CapybaraGL/build/CMakeFiles --progress-num=1,2,3,4 "Finished codegen for target MyOpenGLLibrary"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/Angie/Documents/CppCode/CapybaraGL/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Finished codegen for target MyOpenGLLibrary"
 .PHONY : CMakeFiles/MyOpenGLLibrary.dir/codegen
 
 # clean rule for target.

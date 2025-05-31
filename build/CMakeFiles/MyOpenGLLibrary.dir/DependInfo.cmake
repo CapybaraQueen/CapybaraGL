@@ -8,9 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/Angie/Documents/CppCode/CapybaraGL/src/renderer.cpp" "CMakeFiles/MyOpenGLLibrary.dir/src/renderer.cpp.o" "gcc" "CMakeFiles/MyOpenGLLibrary.dir/src/renderer.cpp.o.d"
-  "/home/Angie/Documents/CppCode/CapybaraGL/src/shader.cpp" "CMakeFiles/MyOpenGLLibrary.dir/src/shader.cpp.o" "gcc" "CMakeFiles/MyOpenGLLibrary.dir/src/shader.cpp.o.d"
-  "/home/Angie/Documents/CppCode/CapybaraGL/src/window.cpp" "CMakeFiles/MyOpenGLLibrary.dir/src/window.cpp.o" "gcc" "CMakeFiles/MyOpenGLLibrary.dir/src/window.cpp.o.d"
+  "/home/Angie/Documents/CppCode/CapybaraGL/src/IndexBuffer.cpp" "CMakeFiles/MyOpenGLLibrary.dir/src/IndexBuffer.cpp.o" "gcc" "CMakeFiles/MyOpenGLLibrary.dir/src/IndexBuffer.cpp.o.d"
+  "/home/Angie/Documents/CppCode/CapybaraGL/src/Renderer.cpp" "CMakeFiles/MyOpenGLLibrary.dir/src/Renderer.cpp.o" "gcc" "CMakeFiles/MyOpenGLLibrary.dir/src/Renderer.cpp.o.d"
+  "/home/Angie/Documents/CppCode/CapybaraGL/src/Shader.cpp" "CMakeFiles/MyOpenGLLibrary.dir/src/Shader.cpp.o" "gcc" "CMakeFiles/MyOpenGLLibrary.dir/src/Shader.cpp.o.d"
+  "/home/Angie/Documents/CppCode/CapybaraGL/src/VertexArray.cpp" "CMakeFiles/MyOpenGLLibrary.dir/src/VertexArray.cpp.o" "gcc" "CMakeFiles/MyOpenGLLibrary.dir/src/VertexArray.cpp.o.d"
+  "/home/Angie/Documents/CppCode/CapybaraGL/src/VertexBuffer.cpp" "CMakeFiles/MyOpenGLLibrary.dir/src/VertexBuffer.cpp.o" "gcc" "CMakeFiles/MyOpenGLLibrary.dir/src/VertexBuffer.cpp.o.d"
+  "/home/Angie/Documents/CppCode/CapybaraGL/src/Window.cpp" "CMakeFiles/MyOpenGLLibrary.dir/src/Window.cpp.o" "gcc" "CMakeFiles/MyOpenGLLibrary.dir/src/Window.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

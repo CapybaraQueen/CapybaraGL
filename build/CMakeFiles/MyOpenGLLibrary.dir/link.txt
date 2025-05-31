@@ -1,2 +1,2 @@
-/usr/bin/ar qc libMyOpenGLLibrary.a CMakeFiles/MyOpenGLLibrary.dir/src/window.cpp.o CMakeFiles/MyOpenGLLibrary.dir/src/renderer.cpp.o CMakeFiles/MyOpenGLLibrary.dir/src/shader.cpp.o
+/usr/bin/ar qc libMyOpenGLLibrary.a CMakeFiles/MyOpenGLLibrary.dir/src/Window.cpp.o CMakeFiles/MyOpenGLLibrary.dir/src/Renderer.cpp.o CMakeFiles/MyOpenGLLibrary.dir/src/Shader.cpp.o CMakeFiles/MyOpenGLLibrary.dir/src/VertexBuffer.cpp.o CMakeFiles/MyOpenGLLibrary.dir/src/VertexArray.cpp.o CMakeFiles/MyOpenGLLibrary.dir/src/IndexBuffer.cpp.o
 /usr/bin/ranlib libMyOpenGLLibrary.a

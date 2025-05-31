@@ -72,63 +72,111 @@ include CMakeFiles/MyOpenGLLibrary.dir/flags.make
 CMakeFiles/MyOpenGLLibrary.dir/codegen:
 .PHONY : CMakeFiles/MyOpenGLLibrary.dir/codegen
 
-CMakeFiles/MyOpenGLLibrary.dir/src/window.cpp.o: CMakeFiles/MyOpenGLLibrary.dir/flags.make
-CMakeFiles/MyOpenGLLibrary.dir/src/window.cpp.o: /home/Angie/Documents/CppCode/CapybaraGL/src/window.cpp
-CMakeFiles/MyOpenGLLibrary.dir/src/window.cpp.o: CMakeFiles/MyOpenGLLibrary.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Angie/Documents/CppCode/CapybaraGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MyOpenGLLibrary.dir/src/window.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyOpenGLLibrary.dir/src/window.cpp.o -MF CMakeFiles/MyOpenGLLibrary.dir/src/window.cpp.o.d -o CMakeFiles/MyOpenGLLibrary.dir/src/window.cpp.o -c /home/Angie/Documents/CppCode/CapybaraGL/src/window.cpp
+CMakeFiles/MyOpenGLLibrary.dir/src/Window.cpp.o: CMakeFiles/MyOpenGLLibrary.dir/flags.make
+CMakeFiles/MyOpenGLLibrary.dir/src/Window.cpp.o: /home/Angie/Documents/CppCode/CapybaraGL/src/Window.cpp
+CMakeFiles/MyOpenGLLibrary.dir/src/Window.cpp.o: CMakeFiles/MyOpenGLLibrary.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Angie/Documents/CppCode/CapybaraGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MyOpenGLLibrary.dir/src/Window.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyOpenGLLibrary.dir/src/Window.cpp.o -MF CMakeFiles/MyOpenGLLibrary.dir/src/Window.cpp.o.d -o CMakeFiles/MyOpenGLLibrary.dir/src/Window.cpp.o -c /home/Angie/Documents/CppCode/CapybaraGL/src/Window.cpp
 
-CMakeFiles/MyOpenGLLibrary.dir/src/window.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyOpenGLLibrary.dir/src/window.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Angie/Documents/CppCode/CapybaraGL/src/window.cpp > CMakeFiles/MyOpenGLLibrary.dir/src/window.cpp.i
+CMakeFiles/MyOpenGLLibrary.dir/src/Window.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyOpenGLLibrary.dir/src/Window.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Angie/Documents/CppCode/CapybaraGL/src/Window.cpp > CMakeFiles/MyOpenGLLibrary.dir/src/Window.cpp.i
 
-CMakeFiles/MyOpenGLLibrary.dir/src/window.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyOpenGLLibrary.dir/src/window.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Angie/Documents/CppCode/CapybaraGL/src/window.cpp -o CMakeFiles/MyOpenGLLibrary.dir/src/window.cpp.s
+CMakeFiles/MyOpenGLLibrary.dir/src/Window.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyOpenGLLibrary.dir/src/Window.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Angie/Documents/CppCode/CapybaraGL/src/Window.cpp -o CMakeFiles/MyOpenGLLibrary.dir/src/Window.cpp.s
 
-CMakeFiles/MyOpenGLLibrary.dir/src/renderer.cpp.o: CMakeFiles/MyOpenGLLibrary.dir/flags.make
-CMakeFiles/MyOpenGLLibrary.dir/src/renderer.cpp.o: /home/Angie/Documents/CppCode/CapybaraGL/src/renderer.cpp
-CMakeFiles/MyOpenGLLibrary.dir/src/renderer.cpp.o: CMakeFiles/MyOpenGLLibrary.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Angie/Documents/CppCode/CapybaraGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MyOpenGLLibrary.dir/src/renderer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyOpenGLLibrary.dir/src/renderer.cpp.o -MF CMakeFiles/MyOpenGLLibrary.dir/src/renderer.cpp.o.d -o CMakeFiles/MyOpenGLLibrary.dir/src/renderer.cpp.o -c /home/Angie/Documents/CppCode/CapybaraGL/src/renderer.cpp
+CMakeFiles/MyOpenGLLibrary.dir/src/Renderer.cpp.o: CMakeFiles/MyOpenGLLibrary.dir/flags.make
+CMakeFiles/MyOpenGLLibrary.dir/src/Renderer.cpp.o: /home/Angie/Documents/CppCode/CapybaraGL/src/Renderer.cpp
+CMakeFiles/MyOpenGLLibrary.dir/src/Renderer.cpp.o: CMakeFiles/MyOpenGLLibrary.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Angie/Documents/CppCode/CapybaraGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MyOpenGLLibrary.dir/src/Renderer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyOpenGLLibrary.dir/src/Renderer.cpp.o -MF CMakeFiles/MyOpenGLLibrary.dir/src/Renderer.cpp.o.d -o CMakeFiles/MyOpenGLLibrary.dir/src/Renderer.cpp.o -c /home/Angie/Documents/CppCode/CapybaraGL/src/Renderer.cpp
 
-CMakeFiles/MyOpenGLLibrary.dir/src/renderer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyOpenGLLibrary.dir/src/renderer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Angie/Documents/CppCode/CapybaraGL/src/renderer.cpp > CMakeFiles/MyOpenGLLibrary.dir/src/renderer.cpp.i
+CMakeFiles/MyOpenGLLibrary.dir/src/Renderer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyOpenGLLibrary.dir/src/Renderer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Angie/Documents/CppCode/CapybaraGL/src/Renderer.cpp > CMakeFiles/MyOpenGLLibrary.dir/src/Renderer.cpp.i
 
-CMakeFiles/MyOpenGLLibrary.dir/src/renderer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyOpenGLLibrary.dir/src/renderer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Angie/Documents/CppCode/CapybaraGL/src/renderer.cpp -o CMakeFiles/MyOpenGLLibrary.dir/src/renderer.cpp.s
+CMakeFiles/MyOpenGLLibrary.dir/src/Renderer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyOpenGLLibrary.dir/src/Renderer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Angie/Documents/CppCode/CapybaraGL/src/Renderer.cpp -o CMakeFiles/MyOpenGLLibrary.dir/src/Renderer.cpp.s
 
-CMakeFiles/MyOpenGLLibrary.dir/src/shader.cpp.o: CMakeFiles/MyOpenGLLibrary.dir/flags.make
-CMakeFiles/MyOpenGLLibrary.dir/src/shader.cpp.o: /home/Angie/Documents/CppCode/CapybaraGL/src/shader.cpp
-CMakeFiles/MyOpenGLLibrary.dir/src/shader.cpp.o: CMakeFiles/MyOpenGLLibrary.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Angie/Documents/CppCode/CapybaraGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MyOpenGLLibrary.dir/src/shader.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyOpenGLLibrary.dir/src/shader.cpp.o -MF CMakeFiles/MyOpenGLLibrary.dir/src/shader.cpp.o.d -o CMakeFiles/MyOpenGLLibrary.dir/src/shader.cpp.o -c /home/Angie/Documents/CppCode/CapybaraGL/src/shader.cpp
+CMakeFiles/MyOpenGLLibrary.dir/src/Shader.cpp.o: CMakeFiles/MyOpenGLLibrary.dir/flags.make
+CMakeFiles/MyOpenGLLibrary.dir/src/Shader.cpp.o: /home/Angie/Documents/CppCode/CapybaraGL/src/Shader.cpp
+CMakeFiles/MyOpenGLLibrary.dir/src/Shader.cpp.o: CMakeFiles/MyOpenGLLibrary.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Angie/Documents/CppCode/CapybaraGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MyOpenGLLibrary.dir/src/Shader.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyOpenGLLibrary.dir/src/Shader.cpp.o -MF CMakeFiles/MyOpenGLLibrary.dir/src/Shader.cpp.o.d -o CMakeFiles/MyOpenGLLibrary.dir/src/Shader.cpp.o -c /home/Angie/Documents/CppCode/CapybaraGL/src/Shader.cpp
 
-CMakeFiles/MyOpenGLLibrary.dir/src/shader.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyOpenGLLibrary.dir/src/shader.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Angie/Documents/CppCode/CapybaraGL/src/shader.cpp > CMakeFiles/MyOpenGLLibrary.dir/src/shader.cpp.i
+CMakeFiles/MyOpenGLLibrary.dir/src/Shader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyOpenGLLibrary.dir/src/Shader.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Angie/Documents/CppCode/CapybaraGL/src/Shader.cpp > CMakeFiles/MyOpenGLLibrary.dir/src/Shader.cpp.i
 
-CMakeFiles/MyOpenGLLibrary.dir/src/shader.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyOpenGLLibrary.dir/src/shader.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Angie/Documents/CppCode/CapybaraGL/src/shader.cpp -o CMakeFiles/MyOpenGLLibrary.dir/src/shader.cpp.s
+CMakeFiles/MyOpenGLLibrary.dir/src/Shader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyOpenGLLibrary.dir/src/Shader.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Angie/Documents/CppCode/CapybaraGL/src/Shader.cpp -o CMakeFiles/MyOpenGLLibrary.dir/src/Shader.cpp.s
+
+CMakeFiles/MyOpenGLLibrary.dir/src/VertexBuffer.cpp.o: CMakeFiles/MyOpenGLLibrary.dir/flags.make
+CMakeFiles/MyOpenGLLibrary.dir/src/VertexBuffer.cpp.o: /home/Angie/Documents/CppCode/CapybaraGL/src/VertexBuffer.cpp
+CMakeFiles/MyOpenGLLibrary.dir/src/VertexBuffer.cpp.o: CMakeFiles/MyOpenGLLibrary.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Angie/Documents/CppCode/CapybaraGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MyOpenGLLibrary.dir/src/VertexBuffer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyOpenGLLibrary.dir/src/VertexBuffer.cpp.o -MF CMakeFiles/MyOpenGLLibrary.dir/src/VertexBuffer.cpp.o.d -o CMakeFiles/MyOpenGLLibrary.dir/src/VertexBuffer.cpp.o -c /home/Angie/Documents/CppCode/CapybaraGL/src/VertexBuffer.cpp
+
+CMakeFiles/MyOpenGLLibrary.dir/src/VertexBuffer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyOpenGLLibrary.dir/src/VertexBuffer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Angie/Documents/CppCode/CapybaraGL/src/VertexBuffer.cpp > CMakeFiles/MyOpenGLLibrary.dir/src/VertexBuffer.cpp.i
+
+CMakeFiles/MyOpenGLLibrary.dir/src/VertexBuffer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyOpenGLLibrary.dir/src/VertexBuffer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Angie/Documents/CppCode/CapybaraGL/src/VertexBuffer.cpp -o CMakeFiles/MyOpenGLLibrary.dir/src/VertexBuffer.cpp.s
+
+CMakeFiles/MyOpenGLLibrary.dir/src/VertexArray.cpp.o: CMakeFiles/MyOpenGLLibrary.dir/flags.make
+CMakeFiles/MyOpenGLLibrary.dir/src/VertexArray.cpp.o: /home/Angie/Documents/CppCode/CapybaraGL/src/VertexArray.cpp
+CMakeFiles/MyOpenGLLibrary.dir/src/VertexArray.cpp.o: CMakeFiles/MyOpenGLLibrary.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Angie/Documents/CppCode/CapybaraGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MyOpenGLLibrary.dir/src/VertexArray.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyOpenGLLibrary.dir/src/VertexArray.cpp.o -MF CMakeFiles/MyOpenGLLibrary.dir/src/VertexArray.cpp.o.d -o CMakeFiles/MyOpenGLLibrary.dir/src/VertexArray.cpp.o -c /home/Angie/Documents/CppCode/CapybaraGL/src/VertexArray.cpp
+
+CMakeFiles/MyOpenGLLibrary.dir/src/VertexArray.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyOpenGLLibrary.dir/src/VertexArray.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Angie/Documents/CppCode/CapybaraGL/src/VertexArray.cpp > CMakeFiles/MyOpenGLLibrary.dir/src/VertexArray.cpp.i
+
+CMakeFiles/MyOpenGLLibrary.dir/src/VertexArray.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyOpenGLLibrary.dir/src/VertexArray.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Angie/Documents/CppCode/CapybaraGL/src/VertexArray.cpp -o CMakeFiles/MyOpenGLLibrary.dir/src/VertexArray.cpp.s
+
+CMakeFiles/MyOpenGLLibrary.dir/src/IndexBuffer.cpp.o: CMakeFiles/MyOpenGLLibrary.dir/flags.make
+CMakeFiles/MyOpenGLLibrary.dir/src/IndexBuffer.cpp.o: /home/Angie/Documents/CppCode/CapybaraGL/src/IndexBuffer.cpp
+CMakeFiles/MyOpenGLLibrary.dir/src/IndexBuffer.cpp.o: CMakeFiles/MyOpenGLLibrary.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Angie/Documents/CppCode/CapybaraGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/MyOpenGLLibrary.dir/src/IndexBuffer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyOpenGLLibrary.dir/src/IndexBuffer.cpp.o -MF CMakeFiles/MyOpenGLLibrary.dir/src/IndexBuffer.cpp.o.d -o CMakeFiles/MyOpenGLLibrary.dir/src/IndexBuffer.cpp.o -c /home/Angie/Documents/CppCode/CapybaraGL/src/IndexBuffer.cpp
+
+CMakeFiles/MyOpenGLLibrary.dir/src/IndexBuffer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyOpenGLLibrary.dir/src/IndexBuffer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Angie/Documents/CppCode/CapybaraGL/src/IndexBuffer.cpp > CMakeFiles/MyOpenGLLibrary.dir/src/IndexBuffer.cpp.i
+
+CMakeFiles/MyOpenGLLibrary.dir/src/IndexBuffer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyOpenGLLibrary.dir/src/IndexBuffer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Angie/Documents/CppCode/CapybaraGL/src/IndexBuffer.cpp -o CMakeFiles/MyOpenGLLibrary.dir/src/IndexBuffer.cpp.s
 
 # Object files for target MyOpenGLLibrary
 MyOpenGLLibrary_OBJECTS = \
-"CMakeFiles/MyOpenGLLibrary.dir/src/window.cpp.o" \
-"CMakeFiles/MyOpenGLLibrary.dir/src/renderer.cpp.o" \
-"CMakeFiles/MyOpenGLLibrary.dir/src/shader.cpp.o"
+"CMakeFiles/MyOpenGLLibrary.dir/src/Window.cpp.o" \
+"CMakeFiles/MyOpenGLLibrary.dir/src/Renderer.cpp.o" \
+"CMakeFiles/MyOpenGLLibrary.dir/src/Shader.cpp.o" \
+"CMakeFiles/MyOpenGLLibrary.dir/src/VertexBuffer.cpp.o" \
+"CMakeFiles/MyOpenGLLibrary.dir/src/VertexArray.cpp.o" \
+"CMakeFiles/MyOpenGLLibrary.dir/src/IndexBuffer.cpp.o"
 
 # External object files for target MyOpenGLLibrary
 MyOpenGLLibrary_EXTERNAL_OBJECTS =
 
-libMyOpenGLLibrary.a: CMakeFiles/MyOpenGLLibrary.dir/src/window.cpp.o
-libMyOpenGLLibrary.a: CMakeFiles/MyOpenGLLibrary.dir/src/renderer.cpp.o
-libMyOpenGLLibrary.a: CMakeFiles/MyOpenGLLibrary.dir/src/shader.cpp.o
+libMyOpenGLLibrary.a: CMakeFiles/MyOpenGLLibrary.dir/src/Window.cpp.o
+libMyOpenGLLibrary.a: CMakeFiles/MyOpenGLLibrary.dir/src/Renderer.cpp.o
+libMyOpenGLLibrary.a: CMakeFiles/MyOpenGLLibrary.dir/src/Shader.cpp.o
+libMyOpenGLLibrary.a: CMakeFiles/MyOpenGLLibrary.dir/src/VertexBuffer.cpp.o
+libMyOpenGLLibrary.a: CMakeFiles/MyOpenGLLibrary.dir/src/VertexArray.cpp.o
+libMyOpenGLLibrary.a: CMakeFiles/MyOpenGLLibrary.dir/src/IndexBuffer.cpp.o
 libMyOpenGLLibrary.a: CMakeFiles/MyOpenGLLibrary.dir/build.make
 libMyOpenGLLibrary.a: CMakeFiles/MyOpenGLLibrary.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/Angie/Documents/CppCode/CapybaraGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libMyOpenGLLibrary.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/Angie/Documents/CppCode/CapybaraGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libMyOpenGLLibrary.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/MyOpenGLLibrary.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MyOpenGLLibrary.dir/link.txt --verbose=$(VERBOSE)
 
