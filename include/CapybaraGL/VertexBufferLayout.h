@@ -2,8 +2,6 @@
 #define VERTEXBUFFERLAYOUT_H
 
 #include<vector>
-#include<GL/glew.h>
-#include "CapybaraDebug.h"
 
 struct VertexBufferElement
 {

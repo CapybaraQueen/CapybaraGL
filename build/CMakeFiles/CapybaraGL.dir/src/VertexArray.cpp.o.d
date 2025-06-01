@@ -59,15 +59,15 @@ CMakeFiles/CapybaraGL.dir/src/VertexArray.cpp.o: \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stddef.h \
  /usr/include/c++/15.1.1/bits/uses_allocator.h \
  /usr/include/c++/15.1.1/bits/uses_allocator_args.h \
- /usr/include/c++/15.1.1/tuple /usr/include/GL/glew.h \
- /usr/include/c++/15.1.1/cstdint \
+ /usr/include/c++/15.1.1/tuple \
+ /home/Angie/Documents/CppCode/CapybaraGL/internal/CapybaraDebug.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
  /usr/include/bits/types.h /usr/include/bits/typesizes.h \
  /usr/include/bits/time64.h /usr/include/bits/wchar.h \
  /usr/include/bits/stdint-intn.h /usr/include/bits/stdint-uintn.h \
- /usr/include/bits/stdint-least.h /usr/include/GL/glu.h \
- /usr/include/GL/gl.h \
- /home/Angie/Documents/CppCode/CapybaraGL/internal/CapybaraDebug.h \
- /usr/include/c++/15.1.1/cassert /usr/include/assert.h \
- /home/Angie/Documents/CppCode/CapybaraGL/include/CapybaraGL/VertexBufferLayout.h
+ /usr/include/bits/stdint-least.h /usr/include/c++/15.1.1/cassert \
+ /usr/include/assert.h \
+ /home/Angie/Documents/CppCode/CapybaraGL/include/CapybaraGL/VertexBufferLayout.h \
+ /usr/include/GL/glew.h /usr/include/c++/15.1.1/cstdint \
+ /usr/include/GL/glu.h /usr/include/GL/gl.h

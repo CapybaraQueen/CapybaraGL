@@ -145,6 +145,4 @@ CMakeFiles/CapybaraGL.dir/src/Window.cpp.o: \
  /usr/include/c++/15.1.1/bits/basic_string.tcc \
  /usr/include/c++/15.1.1/bits/memory_resource.h \
  /usr/include/c++/15.1.1/bits/uses_allocator_args.h \
- /usr/include/c++/15.1.1/optional \
- /usr/include/c++/15.1.1/bits/enable_special_members.h \
  /usr/include/c++/15.1.1/stdexcept

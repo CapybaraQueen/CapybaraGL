@@ -2,7 +2,6 @@
 #include<GL/glew.h>
 #include<GLFW/glfw3.h>
 #include<string>
-#include<optional>
 #include<stdexcept>
 
 class WindowImpl
@@ -64,12 +63,12 @@ class WindowImpl
 		}
 
 	public:
-		static std::optional<WindowImpl> Create(std::string name, unsigned int width, unsigned int height)
+		static std::unique_ptr<WindowImpl> Create(std::string name, unsigned int width, unsigned int height)
 		{
-			WindowImpl window(name, width, height);
-			if (!window.initSuccess)
+			std::unique_ptr<WindowImpl> window(new WindowImpl(name, width, height));
+			if (!window->initSuccess)
 			{
-				return std::nullopt;
+				return nullptr;
 			}
 			
 			return window;
@@ -82,12 +81,8 @@ class WindowImpl
 
 Window::Window(std::string name, unsigned int width, unsigned int height)
 {
-	auto optImpl = WindowImpl::Create(name, width, height);
-	if (optImpl)
-	{
-		impl = std::make_unique<WindowImpl>(std::move(*optImpl));
-	}
-	else
+	impl = WindowImpl::Create(name, width, height);
+	if (!impl)
 	{
 		throw std::runtime_error("Failed to initialize window.\n");
 	}

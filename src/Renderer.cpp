@@ -1,5 +1,6 @@
 #include "CapybaraGL/Renderer.h"
 #include "CapybaraDebug.h"
+#include<GL/glew.h>
 
 void Renderer::Clear() const
 {
