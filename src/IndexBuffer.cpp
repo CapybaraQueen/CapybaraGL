@@ -1,5 +1,6 @@
 #include "CapybaraGL/IndexBuffer.h"
-#include "CapybaraGL/Debug.h"
+#include "CapybaraDebug.h"
+#include<GL/glew.h>
 
 IndexBuffer::IndexBuffer(const unsigned int* indices, unsigned int count)
 	: m_Count(count)

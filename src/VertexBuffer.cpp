@@ -1,5 +1,6 @@
 #include "CapybaraGL/VertexBuffer.h"
-#include "CapybaraGL/Debug.h"
+#include "CapybaraDebug.h"
+#include<GL/glew.h>
 
 VertexBuffer::VertexBuffer(const void* data, unsigned int size)
 {

@@ -1,6 +1,7 @@
 #include "CapybaraGL/VertexArray.h"
-#include "CapybaraGL/Debug.h"
+#include "CapybaraDebug.h"
 #include "CapybaraGL/VertexBufferLayout.h"
+#include<GL/glew.h>
 
 VertexArray::VertexArray()
 {

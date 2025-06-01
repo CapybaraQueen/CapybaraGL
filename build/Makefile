@@ -129,6 +129,30 @@ CapybaraGL/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CapybaraGL.dir/build.make CMakeFiles/CapybaraGL.dir/build
 .PHONY : CapybaraGL/fast
 
+src/CapybaraDebug.o: src/CapybaraDebug.cpp.o
+.PHONY : src/CapybaraDebug.o
+
+# target to build an object file
+src/CapybaraDebug.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CapybaraGL.dir/build.make CMakeFiles/CapybaraGL.dir/src/CapybaraDebug.cpp.o
+.PHONY : src/CapybaraDebug.cpp.o
+
+src/CapybaraDebug.i: src/CapybaraDebug.cpp.i
+.PHONY : src/CapybaraDebug.i
+
+# target to preprocess a source file
+src/CapybaraDebug.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CapybaraGL.dir/build.make CMakeFiles/CapybaraGL.dir/src/CapybaraDebug.cpp.i
+.PHONY : src/CapybaraDebug.cpp.i
+
+src/CapybaraDebug.s: src/CapybaraDebug.cpp.s
+.PHONY : src/CapybaraDebug.s
+
+# target to generate assembly for a file
+src/CapybaraDebug.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CapybaraGL.dir/build.make CMakeFiles/CapybaraGL.dir/src/CapybaraDebug.cpp.s
+.PHONY : src/CapybaraDebug.cpp.s
+
 src/IndexBuffer.o: src/IndexBuffer.cpp.o
 .PHONY : src/IndexBuffer.o
 
@@ -282,6 +306,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... CapybaraGL"
+	@echo "... src/CapybaraDebug.o"
+	@echo "... src/CapybaraDebug.i"
+	@echo "... src/CapybaraDebug.s"
 	@echo "... src/IndexBuffer.o"
 	@echo "... src/IndexBuffer.i"
 	@echo "... src/IndexBuffer.s"

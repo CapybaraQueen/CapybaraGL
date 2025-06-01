@@ -1,38 +1,44 @@
 [
 {
   "directory": "/home/Angie/Documents/CppCode/CapybaraGL/build",
-  "command": "/usr/bin/c++  -I/home/Angie/Documents/CppCode/CapybaraGL/include -std=gnu++17 -o CMakeFiles/CapybaraGL.dir/src/Window.cpp.o -c /home/Angie/Documents/CppCode/CapybaraGL/src/Window.cpp",
+  "command": "/usr/bin/c++  -I/home/Angie/Documents/CppCode/CapybaraGL/include -I/home/Angie/Documents/CppCode/CapybaraGL/internal -std=gnu++17 -o CMakeFiles/CapybaraGL.dir/src/Window.cpp.o -c /home/Angie/Documents/CppCode/CapybaraGL/src/Window.cpp",
   "file": "/home/Angie/Documents/CppCode/CapybaraGL/src/Window.cpp",
   "output": "CMakeFiles/CapybaraGL.dir/src/Window.cpp.o"
 },
 {
   "directory": "/home/Angie/Documents/CppCode/CapybaraGL/build",
-  "command": "/usr/bin/c++  -I/home/Angie/Documents/CppCode/CapybaraGL/include -std=gnu++17 -o CMakeFiles/CapybaraGL.dir/src/Renderer.cpp.o -c /home/Angie/Documents/CppCode/CapybaraGL/src/Renderer.cpp",
+  "command": "/usr/bin/c++  -I/home/Angie/Documents/CppCode/CapybaraGL/include -I/home/Angie/Documents/CppCode/CapybaraGL/internal -std=gnu++17 -o CMakeFiles/CapybaraGL.dir/src/Renderer.cpp.o -c /home/Angie/Documents/CppCode/CapybaraGL/src/Renderer.cpp",
   "file": "/home/Angie/Documents/CppCode/CapybaraGL/src/Renderer.cpp",
   "output": "CMakeFiles/CapybaraGL.dir/src/Renderer.cpp.o"
 },
 {
   "directory": "/home/Angie/Documents/CppCode/CapybaraGL/build",
-  "command": "/usr/bin/c++  -I/home/Angie/Documents/CppCode/CapybaraGL/include -std=gnu++17 -o CMakeFiles/CapybaraGL.dir/src/Shader.cpp.o -c /home/Angie/Documents/CppCode/CapybaraGL/src/Shader.cpp",
+  "command": "/usr/bin/c++  -I/home/Angie/Documents/CppCode/CapybaraGL/include -I/home/Angie/Documents/CppCode/CapybaraGL/internal -std=gnu++17 -o CMakeFiles/CapybaraGL.dir/src/Shader.cpp.o -c /home/Angie/Documents/CppCode/CapybaraGL/src/Shader.cpp",
   "file": "/home/Angie/Documents/CppCode/CapybaraGL/src/Shader.cpp",
   "output": "CMakeFiles/CapybaraGL.dir/src/Shader.cpp.o"
 },
 {
   "directory": "/home/Angie/Documents/CppCode/CapybaraGL/build",
-  "command": "/usr/bin/c++  -I/home/Angie/Documents/CppCode/CapybaraGL/include -std=gnu++17 -o CMakeFiles/CapybaraGL.dir/src/VertexBuffer.cpp.o -c /home/Angie/Documents/CppCode/CapybaraGL/src/VertexBuffer.cpp",
+  "command": "/usr/bin/c++  -I/home/Angie/Documents/CppCode/CapybaraGL/include -I/home/Angie/Documents/CppCode/CapybaraGL/internal -std=gnu++17 -o CMakeFiles/CapybaraGL.dir/src/VertexBuffer.cpp.o -c /home/Angie/Documents/CppCode/CapybaraGL/src/VertexBuffer.cpp",
   "file": "/home/Angie/Documents/CppCode/CapybaraGL/src/VertexBuffer.cpp",
   "output": "CMakeFiles/CapybaraGL.dir/src/VertexBuffer.cpp.o"
 },
 {
   "directory": "/home/Angie/Documents/CppCode/CapybaraGL/build",
-  "command": "/usr/bin/c++  -I/home/Angie/Documents/CppCode/CapybaraGL/include -std=gnu++17 -o CMakeFiles/CapybaraGL.dir/src/VertexArray.cpp.o -c /home/Angie/Documents/CppCode/CapybaraGL/src/VertexArray.cpp",
+  "command": "/usr/bin/c++  -I/home/Angie/Documents/CppCode/CapybaraGL/include -I/home/Angie/Documents/CppCode/CapybaraGL/internal -std=gnu++17 -o CMakeFiles/CapybaraGL.dir/src/VertexArray.cpp.o -c /home/Angie/Documents/CppCode/CapybaraGL/src/VertexArray.cpp",
   "file": "/home/Angie/Documents/CppCode/CapybaraGL/src/VertexArray.cpp",
   "output": "CMakeFiles/CapybaraGL.dir/src/VertexArray.cpp.o"
 },
 {
   "directory": "/home/Angie/Documents/CppCode/CapybaraGL/build",
-  "command": "/usr/bin/c++  -I/home/Angie/Documents/CppCode/CapybaraGL/include -std=gnu++17 -o CMakeFiles/CapybaraGL.dir/src/IndexBuffer.cpp.o -c /home/Angie/Documents/CppCode/CapybaraGL/src/IndexBuffer.cpp",
+  "command": "/usr/bin/c++  -I/home/Angie/Documents/CppCode/CapybaraGL/include -I/home/Angie/Documents/CppCode/CapybaraGL/internal -std=gnu++17 -o CMakeFiles/CapybaraGL.dir/src/IndexBuffer.cpp.o -c /home/Angie/Documents/CppCode/CapybaraGL/src/IndexBuffer.cpp",
   "file": "/home/Angie/Documents/CppCode/CapybaraGL/src/IndexBuffer.cpp",
   "output": "CMakeFiles/CapybaraGL.dir/src/IndexBuffer.cpp.o"
+},
+{
+  "directory": "/home/Angie/Documents/CppCode/CapybaraGL/build",
+  "command": "/usr/bin/c++  -I/home/Angie/Documents/CppCode/CapybaraGL/include -I/home/Angie/Documents/CppCode/CapybaraGL/internal -std=gnu++17 -o CMakeFiles/CapybaraGL.dir/src/CapybaraDebug.cpp.o -c /home/Angie/Documents/CppCode/CapybaraGL/src/CapybaraDebug.cpp",
+  "file": "/home/Angie/Documents/CppCode/CapybaraGL/src/CapybaraDebug.cpp",
+  "output": "CMakeFiles/CapybaraGL.dir/src/CapybaraDebug.cpp.o"
 }
 ]

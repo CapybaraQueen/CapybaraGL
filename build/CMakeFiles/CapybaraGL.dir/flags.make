@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/Angie/Documents/CppCode/CapybaraGL/include
+CXX_INCLUDES = -I/home/Angie/Documents/CppCode/CapybaraGL/include -I/home/Angie/Documents/CppCode/CapybaraGL/internal
 
 CXX_FLAGS = -std=gnu++17
 

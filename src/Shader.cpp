@@ -1,5 +1,6 @@
-#include "CapybaraGL/Renderer.h"
 #include "CapybaraGL/Shader.h"
+#include "CapybaraDebug.h"
+#include<GL/glew.h>
 
 #include<iostream>
 #include<string>

@@ -156,6 +156,20 @@ CMakeFiles/CapybaraGL.dir/src/IndexBuffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CapybaraGL.dir/src/IndexBuffer.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Angie/Documents/CppCode/CapybaraGL/src/IndexBuffer.cpp -o CMakeFiles/CapybaraGL.dir/src/IndexBuffer.cpp.s
 
+CMakeFiles/CapybaraGL.dir/src/CapybaraDebug.cpp.o: CMakeFiles/CapybaraGL.dir/flags.make
+CMakeFiles/CapybaraGL.dir/src/CapybaraDebug.cpp.o: /home/Angie/Documents/CppCode/CapybaraGL/src/CapybaraDebug.cpp
+CMakeFiles/CapybaraGL.dir/src/CapybaraDebug.cpp.o: CMakeFiles/CapybaraGL.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Angie/Documents/CppCode/CapybaraGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/CapybaraGL.dir/src/CapybaraDebug.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CapybaraGL.dir/src/CapybaraDebug.cpp.o -MF CMakeFiles/CapybaraGL.dir/src/CapybaraDebug.cpp.o.d -o CMakeFiles/CapybaraGL.dir/src/CapybaraDebug.cpp.o -c /home/Angie/Documents/CppCode/CapybaraGL/src/CapybaraDebug.cpp
+
+CMakeFiles/CapybaraGL.dir/src/CapybaraDebug.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CapybaraGL.dir/src/CapybaraDebug.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Angie/Documents/CppCode/CapybaraGL/src/CapybaraDebug.cpp > CMakeFiles/CapybaraGL.dir/src/CapybaraDebug.cpp.i
+
+CMakeFiles/CapybaraGL.dir/src/CapybaraDebug.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CapybaraGL.dir/src/CapybaraDebug.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Angie/Documents/CppCode/CapybaraGL/src/CapybaraDebug.cpp -o CMakeFiles/CapybaraGL.dir/src/CapybaraDebug.cpp.s
+
 # Object files for target CapybaraGL
 CapybaraGL_OBJECTS = \
 "CMakeFiles/CapybaraGL.dir/src/Window.cpp.o" \
@@ -163,7 +177,8 @@ CapybaraGL_OBJECTS = \
 "CMakeFiles/CapybaraGL.dir/src/Shader.cpp.o" \
 "CMakeFiles/CapybaraGL.dir/src/VertexBuffer.cpp.o" \
 "CMakeFiles/CapybaraGL.dir/src/VertexArray.cpp.o" \
-"CMakeFiles/CapybaraGL.dir/src/IndexBuffer.cpp.o"
+"CMakeFiles/CapybaraGL.dir/src/IndexBuffer.cpp.o" \
+"CMakeFiles/CapybaraGL.dir/src/CapybaraDebug.cpp.o"
 
 # External object files for target CapybaraGL
 CapybaraGL_EXTERNAL_OBJECTS =
@@ -174,9 +189,10 @@ libCapybaraGL.a: CMakeFiles/CapybaraGL.dir/src/Shader.cpp.o
 libCapybaraGL.a: CMakeFiles/CapybaraGL.dir/src/VertexBuffer.cpp.o
 libCapybaraGL.a: CMakeFiles/CapybaraGL.dir/src/VertexArray.cpp.o
 libCapybaraGL.a: CMakeFiles/CapybaraGL.dir/src/IndexBuffer.cpp.o
+libCapybaraGL.a: CMakeFiles/CapybaraGL.dir/src/CapybaraDebug.cpp.o
 libCapybaraGL.a: CMakeFiles/CapybaraGL.dir/build.make
 libCapybaraGL.a: CMakeFiles/CapybaraGL.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/Angie/Documents/CppCode/CapybaraGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libCapybaraGL.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/Angie/Documents/CppCode/CapybaraGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libCapybaraGL.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/CapybaraGL.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CapybaraGL.dir/link.txt --verbose=$(VERBOSE)
 

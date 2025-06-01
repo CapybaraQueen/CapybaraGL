@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/CapybaraGL.dir/src/CapybaraDebug.cpp.o"
+  "CMakeFiles/CapybaraGL.dir/src/CapybaraDebug.cpp.o.d"
   "CMakeFiles/CapybaraGL.dir/src/IndexBuffer.cpp.o"
   "CMakeFiles/CapybaraGL.dir/src/IndexBuffer.cpp.o.d"
   "CMakeFiles/CapybaraGL.dir/src/Renderer.cpp.o"

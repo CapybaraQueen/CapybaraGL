@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/Angie/Documents/CppCode/CapybaraGL/src/CapybaraDebug.cpp" "CMakeFiles/CapybaraGL.dir/src/CapybaraDebug.cpp.o" "gcc" "CMakeFiles/CapybaraGL.dir/src/CapybaraDebug.cpp.o.d"
   "/home/Angie/Documents/CppCode/CapybaraGL/src/IndexBuffer.cpp" "CMakeFiles/CapybaraGL.dir/src/IndexBuffer.cpp.o" "gcc" "CMakeFiles/CapybaraGL.dir/src/IndexBuffer.cpp.o.d"
   "/home/Angie/Documents/CppCode/CapybaraGL/src/Renderer.cpp" "CMakeFiles/CapybaraGL.dir/src/Renderer.cpp.o" "gcc" "CMakeFiles/CapybaraGL.dir/src/Renderer.cpp.o.d"
   "/home/Angie/Documents/CppCode/CapybaraGL/src/Shader.cpp" "CMakeFiles/CapybaraGL.dir/src/Shader.cpp.o" "gcc" "CMakeFiles/CapybaraGL.dir/src/Shader.cpp.o.d"

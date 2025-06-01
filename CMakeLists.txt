@@ -16,14 +16,6 @@ find_package(PkgConfig REQUIRED)
 pkg_check_modules(GLFW REQUIRED glfw3)
 pkg_check_modules(GLEW REQUIRED glew)
 
-# Include directories
-include_directories(
-    ${OPENGL_INCLUDE_DIR}
-    ${GLEW_INCLUDE_DIRS}
-    ${GLFW_INCLUDE_DIRS}
-    include
-)
-
 # Link directories (in case needed)
 link_directories(
     ${GLEW_LIBRARY_DIRS}
@@ -38,6 +30,7 @@ set(LIBRARY_SOURCES
 	src/VertexBuffer.cpp
 	src/VertexArray.cpp
 	src/IndexBuffer.cpp
+	src/CapybaraDebug.cpp
 	res/shaders/Basic.glsl
 	res/shaders/Circle.glsl
 )
@@ -46,12 +39,17 @@ set(LIBRARY_SOURCES
 add_library(CapybaraGL STATIC ${LIBRARY_SOURCES})
 
 # Link necessary system libraries
-target_link_libraries(CapybaraGL
+target_link_libraries(CapybaraGL PRIVATE
     ${OPENGL_gl_LIBRARY}
     ${GLEW_LIBRARIES}
     ${GLFW_LIBRARIES}
 )
 
 # Optionally expose headers for users of the library
-target_include_directories(CapybaraGL PUBLIC ${CMAKE_SOURCE_DIR}/include)
+target_include_directories(CapybaraGL
+	PUBLIC
+		${CMAKE_SOURCE_DIR}/include
+	PRIVATE
+		${CMAKE_SOURCE_DIR}/internal
+	)
 
