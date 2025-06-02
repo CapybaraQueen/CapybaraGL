@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/CapybaraGL_Test.dir/link.d CMakeFiles/CapybaraGL_Test.dir/main.cpp.o -o CapybaraGL_Test  /home/Angie/Documents/CppCode/CapybaraGL/build/libCapybaraGL.a -lGLEW -lEGL -lGL -lGLU -lOpenGL -lglfw

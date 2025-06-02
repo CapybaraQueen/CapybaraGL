@@ -1,0 +1,3 @@
+/home/Angie/Documents/CppCode/CapybaraGL/tests/build/CMakeFiles/CapybaraGL_Test.dir
+/home/Angie/Documents/CppCode/CapybaraGL/tests/build/CMakeFiles/edit_cache.dir
+/home/Angie/Documents/CppCode/CapybaraGL/tests/build/CMakeFiles/rebuild_cache.dir

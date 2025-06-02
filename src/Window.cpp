@@ -65,7 +65,7 @@ class WindowImpl
 	public:
 		static std::unique_ptr<WindowImpl> Create(std::string name, unsigned int width, unsigned int height)
 		{
-			std::unique_ptr<WindowImpl> window(new WindowImpl(name, width, height));
+			std::unique_ptr<WindowImpl> window = std::make_unique<WindowImpl>(WindowImpl(name, width, height));
 			if (!window->initSuccess)
 			{
 				return nullptr;
@@ -73,7 +73,9 @@ class WindowImpl
 			
 			return window;
 		}
-		~WindowImpl();
+		~WindowImpl() = default;
+
+		inline GLFWwindow* GetWindow() const { return m_window; }
 
 		inline unsigned int GetWidth() const { return m_width; }
 		inline unsigned int GetHeight() const { return m_height; }
@@ -86,6 +88,21 @@ Window::Window(std::string name, unsigned int width, unsigned int height)
 	{
 		throw std::runtime_error("Failed to initialize window.\n");
 	}
+}
+
+void* Window::GetWindowHandle() const
+{
+	return static_cast<void*>(impl->GetWindow());
+}
+
+unsigned int Window::GetWidth() const
+{
+	return impl->GetWidth();
+}
+
+unsigned int Window::GetHeight() const
+{
+	return impl->GetHeight();
 }
 
 Window::~Window() = default;
