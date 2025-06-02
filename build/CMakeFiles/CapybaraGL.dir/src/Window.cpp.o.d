@@ -105,8 +105,10 @@ CMakeFiles/CapybaraGL.dir/src/Window.cpp.o: \
  /usr/include/c++/15.1.1/bits/atomic_lockfree_defines.h \
  /usr/include/c++/15.1.1/backward/auto_ptr.h \
  /usr/include/c++/15.1.1/pstl/glue_memory_defs.h \
- /usr/include/c++/15.1.1/pstl/execution_defs.h /usr/include/GL/glew.h \
- /usr/include/c++/15.1.1/cstddef /usr/include/c++/15.1.1/cstdint \
+ /usr/include/c++/15.1.1/pstl/execution_defs.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stdbool.h \
+ /usr/include/GL/glew.h /usr/include/c++/15.1.1/cstddef \
+ /usr/include/c++/15.1.1/cstdint \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/stdint-intn.h \
  /usr/include/bits/stdint-uintn.h /usr/include/bits/stdint-least.h \

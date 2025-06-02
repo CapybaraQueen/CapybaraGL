@@ -2,6 +2,7 @@
 #define WINDOW_H
 
 #include<memory>
+#include<stdbool.h>
 
 class WindowImpl;
 
@@ -11,12 +12,16 @@ class Window
 		Window(std::string name, unsigned int width, unsigned int height);
 		~Window();
 
-		void* GetWindowHandle() const;
+		bool WindowExists() const;
 
 		unsigned int GetWidth() const;
 		unsigned int GetHeight() const;
 
 		void SetDimensions();
+
+		void PollEvents();
+
+		void LoopTest() const;
 
 	private:
 		std::unique_ptr<WindowImpl> impl;

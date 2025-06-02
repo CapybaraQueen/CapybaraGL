@@ -28,6 +28,7 @@ set(LIBRARY_SOURCES
 	src/Renderer.cpp
 	src/Shader.cpp
 	src/VertexBuffer.cpp
+	src/VertexBufferLayout.cpp
 	src/VertexArray.cpp
 	src/IndexBuffer.cpp
 	src/CapybaraDebug.cpp

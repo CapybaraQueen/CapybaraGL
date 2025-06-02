@@ -14,6 +14,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/Angie/Documents/CppCode/CapybaraGL/src/Shader.cpp" "CMakeFiles/CapybaraGL.dir/src/Shader.cpp.o" "gcc" "CMakeFiles/CapybaraGL.dir/src/Shader.cpp.o.d"
   "/home/Angie/Documents/CppCode/CapybaraGL/src/VertexArray.cpp" "CMakeFiles/CapybaraGL.dir/src/VertexArray.cpp.o" "gcc" "CMakeFiles/CapybaraGL.dir/src/VertexArray.cpp.o.d"
   "/home/Angie/Documents/CppCode/CapybaraGL/src/VertexBuffer.cpp" "CMakeFiles/CapybaraGL.dir/src/VertexBuffer.cpp.o" "gcc" "CMakeFiles/CapybaraGL.dir/src/VertexBuffer.cpp.o.d"
+  "/home/Angie/Documents/CppCode/CapybaraGL/src/VertexBufferLayout.cpp" "CMakeFiles/CapybaraGL.dir/src/VertexBufferLayout.cpp.o" "gcc" "CMakeFiles/CapybaraGL.dir/src/VertexBufferLayout.cpp.o.d"
   "/home/Angie/Documents/CppCode/CapybaraGL/src/Window.cpp" "CMakeFiles/CapybaraGL.dir/src/Window.cpp.o" "gcc" "CMakeFiles/CapybaraGL.dir/src/Window.cpp.o.d"
   )
 

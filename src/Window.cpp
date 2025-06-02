@@ -12,7 +12,7 @@ class WindowImpl
 		unsigned int m_width;
 		unsigned int m_height;
 
-		bool initSuccess;
+		bool initSuccess = true;
 
 		WindowImpl(std::string name, unsigned int width, unsigned int height)
 		{
@@ -66,7 +66,7 @@ class WindowImpl
 		static std::unique_ptr<WindowImpl> Create(std::string name, unsigned int width, unsigned int height)
 		{
 			std::unique_ptr<WindowImpl> window = std::make_unique<WindowImpl>(WindowImpl(name, width, height));
-			if (!window->initSuccess)
+			if (!(window->initSuccess))
 			{
 				return nullptr;
 			}
@@ -76,6 +76,7 @@ class WindowImpl
 		~WindowImpl() = default;
 
 		inline GLFWwindow* GetWindow() const { return m_window; }
+		inline void DeleteWindow() { m_window = nullptr; }
 
 		inline unsigned int GetWidth() const { return m_width; }
 		inline unsigned int GetHeight() const { return m_height; }
@@ -90,9 +91,9 @@ Window::Window(std::string name, unsigned int width, unsigned int height)
 	}
 }
 
-void* Window::GetWindowHandle() const
+bool Window::WindowExists() const
 {
-	return static_cast<void*>(impl->GetWindow());
+	return (impl->GetWindow() != nullptr);
 }
 
 unsigned int Window::GetWidth() const
@@ -105,4 +106,33 @@ unsigned int Window::GetHeight() const
 	return impl->GetHeight();
 }
 
-Window::~Window() = default;
+void Window::PollEvents()
+{
+	if (glfwGetKey(impl->GetWindow(), GLFW_KEY_ESCAPE) == GLFW_PRESS)
+	{
+		impl->DeleteWindow();	
+	}
+
+	else if (glfwWindowShouldClose(impl->GetWindow()))
+	{
+		impl->DeleteWindow();
+	}
+}
+
+void Window::LoopTest() const
+{
+	// glClearColor(0.1f, 0.2f, 0.3f, 1.0f);
+	// glClear(GL_COLOR_BUFFER_BIT);
+	glfwSwapBuffers(impl->GetWindow());
+	glfwPollEvents();
+}
+
+Window::~Window()
+{
+	if (impl->GetWindow())
+	{
+		glfwDestroyWindow(impl->GetWindow());
+	}
+
+	glfwTerminate();
+}

@@ -25,6 +25,12 @@
 },
 {
   "directory": "/home/Angie/Documents/CppCode/CapybaraGL/build",
+  "command": "/usr/bin/c++  -I/home/Angie/Documents/CppCode/CapybaraGL/include -I/home/Angie/Documents/CppCode/CapybaraGL/internal -std=gnu++17 -o CMakeFiles/CapybaraGL.dir/src/VertexBufferLayout.cpp.o -c /home/Angie/Documents/CppCode/CapybaraGL/src/VertexBufferLayout.cpp",
+  "file": "/home/Angie/Documents/CppCode/CapybaraGL/src/VertexBufferLayout.cpp",
+  "output": "CMakeFiles/CapybaraGL.dir/src/VertexBufferLayout.cpp.o"
+},
+{
+  "directory": "/home/Angie/Documents/CppCode/CapybaraGL/build",
   "command": "/usr/bin/c++  -I/home/Angie/Documents/CppCode/CapybaraGL/include -I/home/Angie/Documents/CppCode/CapybaraGL/internal -std=gnu++17 -o CMakeFiles/CapybaraGL.dir/src/VertexArray.cpp.o -c /home/Angie/Documents/CppCode/CapybaraGL/src/VertexArray.cpp",
   "file": "/home/Angie/Documents/CppCode/CapybaraGL/src/VertexArray.cpp",
   "output": "CMakeFiles/CapybaraGL.dir/src/VertexArray.cpp.o"

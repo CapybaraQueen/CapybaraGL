@@ -12,6 +12,9 @@ Shader::Shader(const std::string& filepath)
 {
 	ShaderProgramSource source = ParseShader(filepath);
 
+	std::cout << "VERTEX" << std::endl << source.VertexSource << std::endl;
+	std::cout << "FRAGMENT" << std::endl << source.FragmentSource << std::endl;
+
 	m_RendererID = CreateShader(source.VertexSource, source.FragmentSource);
 
 	GLCall( glUseProgram(m_RendererID) );
@@ -68,6 +71,11 @@ enum ShaderType
 struct ShaderProgramSource Shader::ParseShader(const std::string& filepath)
 {
 	std::ifstream stream(filepath);
+	if (!stream.is_open())
+	{
+		std::cerr << "Failed to open shader file: " << filepath << std::endl;
+		return {};
+	}
 	std::string line;
 	std::stringstream ss[2];
 	ShaderType type = NONE;
@@ -76,16 +84,16 @@ struct ShaderProgramSource Shader::ParseShader(const std::string& filepath)
 	{
 		if (line.find("#shader") != std::string::npos)
 		{
-			if (line.find("VERTEX") != std::string::npos)
+			if (line.find("vertex") != std::string::npos)
 			{	
 				type = VERTEX;
 			}
-			else if (line.find("FRAGMENT") != std::string::npos)
+			else if (line.find("fragment") != std::string::npos)
 			{
 				type = FRAGMENT;
 			}
 		}
-		else
+		else if (type != NONE)
 		{
 			ss[(int)type] << line << '\n';
 		}

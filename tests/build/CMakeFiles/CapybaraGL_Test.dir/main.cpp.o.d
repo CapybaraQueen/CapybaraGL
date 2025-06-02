@@ -106,20 +106,33 @@ CMakeFiles/CapybaraGL_Test.dir/main.cpp.o: \
  /usr/include/c++/15.1.1/backward/auto_ptr.h \
  /usr/include/c++/15.1.1/pstl/glue_memory_defs.h \
  /usr/include/c++/15.1.1/pstl/execution_defs.h \
- /usr/include/c++/15.1.1/iostream /usr/include/c++/15.1.1/ostream \
- /usr/include/c++/15.1.1/bits/ostream.h /usr/include/c++/15.1.1/ios \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stdbool.h \
+ /home/Angie/Documents/CppCode/CapybaraGL/include/CapybaraGL/VertexBufferLayout.h \
+ /usr/include/c++/15.1.1/vector /usr/include/c++/15.1.1/bits/stl_vector.h \
+ /usr/include/c++/15.1.1/initializer_list \
+ /usr/include/c++/15.1.1/bits/stl_bvector.h \
+ /usr/include/c++/15.1.1/bits/range_access.h \
+ /usr/include/c++/15.1.1/bits/vector.tcc \
+ /usr/include/c++/15.1.1/bits/memory_resource.h \
+ /usr/include/c++/15.1.1/cstddef \
+ /usr/include/c++/15.1.1/bits/uses_allocator_args.h \
+ /home/Angie/Documents/CppCode/CapybaraGL/include/CapybaraGL/VertexArray.h \
+ /home/Angie/Documents/CppCode/CapybaraGL/include/CapybaraGL/VertexBuffer.h \
+ /home/Angie/Documents/CppCode/CapybaraGL/include/CapybaraGL/VertexBufferLayout.h \
+ /home/Angie/Documents/CppCode/CapybaraGL/include/CapybaraGL/VertexBuffer.h \
+ /home/Angie/Documents/CppCode/CapybaraGL/include/CapybaraGL/IndexBuffer.h \
+ /home/Angie/Documents/CppCode/CapybaraGL/include/CapybaraGL/Renderer.h \
+ /home/Angie/Documents/CppCode/CapybaraGL/include/CapybaraGL/VertexArray.h \
+ /home/Angie/Documents/CppCode/CapybaraGL/include/CapybaraGL/IndexBuffer.h \
+ /home/Angie/Documents/CppCode/CapybaraGL/include/CapybaraGL/Shader.h \
+ /usr/include/c++/15.1.1/string \
  /usr/include/c++/15.1.1/bits/char_traits.h \
  /usr/include/c++/15.1.1/bits/localefwd.h \
  /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/c++locale.h \
  /usr/include/c++/15.1.1/clocale /usr/include/locale.h \
  /usr/include/bits/locale.h /usr/include/c++/15.1.1/cctype \
- /usr/include/ctype.h /usr/include/c++/15.1.1/bits/ios_base.h \
- /usr/include/c++/15.1.1/bits/locale_classes.h \
- /usr/include/c++/15.1.1/string \
- /usr/include/c++/15.1.1/bits/ostream_insert.h \
+ /usr/include/ctype.h /usr/include/c++/15.1.1/bits/ostream_insert.h \
  /usr/include/c++/15.1.1/bits/cxxabi_forced.h \
- /usr/include/c++/15.1.1/bits/range_access.h \
- /usr/include/c++/15.1.1/initializer_list \
  /usr/include/c++/15.1.1/bits/basic_string.h \
  /usr/include/c++/15.1.1/string_view \
  /usr/include/c++/15.1.1/bits/string_view.tcc \
@@ -143,9 +156,18 @@ CMakeFiles/CapybaraGL_Test.dir/main.cpp.o: \
  /usr/include/bits/types/error_t.h \
  /usr/include/c++/15.1.1/bits/charconv.h \
  /usr/include/c++/15.1.1/bits/basic_string.tcc \
- /usr/include/c++/15.1.1/bits/memory_resource.h \
- /usr/include/c++/15.1.1/cstddef \
- /usr/include/c++/15.1.1/bits/uses_allocator_args.h \
+ /usr/include/c++/15.1.1/unordered_map \
+ /usr/include/c++/15.1.1/bits/unordered_map.h \
+ /usr/include/c++/15.1.1/bits/hashtable.h \
+ /usr/include/c++/15.1.1/bits/hashtable_policy.h \
+ /usr/include/c++/15.1.1/bits/enable_special_members.h \
+ /usr/include/c++/15.1.1/bits/node_handle.h \
+ /usr/include/c++/15.1.1/bits/erase_if.h \
+ /home/Angie/Documents/CppCode/CapybaraGL/include/CapybaraGL/Shader.h \
+ /usr/include/c++/15.1.1/iostream /usr/include/c++/15.1.1/ostream \
+ /usr/include/c++/15.1.1/bits/ostream.h /usr/include/c++/15.1.1/ios \
+ /usr/include/c++/15.1.1/bits/ios_base.h \
+ /usr/include/c++/15.1.1/bits/locale_classes.h \
  /usr/include/c++/15.1.1/bits/locale_classes.tcc \
  /usr/include/c++/15.1.1/system_error \
  /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/error_constants.h \

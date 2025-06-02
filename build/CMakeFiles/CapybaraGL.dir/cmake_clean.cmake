@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/CapybaraGL.dir/src/VertexArray.cpp.o.d"
   "CMakeFiles/CapybaraGL.dir/src/VertexBuffer.cpp.o"
   "CMakeFiles/CapybaraGL.dir/src/VertexBuffer.cpp.o.d"
+  "CMakeFiles/CapybaraGL.dir/src/VertexBufferLayout.cpp.o"
+  "CMakeFiles/CapybaraGL.dir/src/VertexBufferLayout.cpp.o.d"
   "CMakeFiles/CapybaraGL.dir/src/Window.cpp.o"
   "CMakeFiles/CapybaraGL.dir/src/Window.cpp.o.d"
   "libCapybaraGL.a"
