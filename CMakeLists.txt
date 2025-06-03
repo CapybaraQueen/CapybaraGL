@@ -31,6 +31,7 @@ set(LIBRARY_SOURCES
 	src/VertexBufferLayout.cpp
 	src/VertexArray.cpp
 	src/IndexBuffer.cpp
+	src/Object.cpp
 	src/CapybaraDebug.cpp
 	res/shaders/Basic.glsl
 	res/shaders/Circle.glsl

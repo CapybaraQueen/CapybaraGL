@@ -39,6 +39,7 @@ int main()
 
 	float red = 0.0f;
 	float green = 0.3f;
+	
 	float blue = 0.8f;
 	float step = 0.05f;
 
